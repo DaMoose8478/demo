@@ -1,0 +1,63 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+    
+  }
+  .main {
+    flex: 1;
+  }
+
+.danbi {
+    height: 200px;
+    float: left;
+    margin-right: 30px;
+    border: 4px solid brown;
+    
+}
+.moose{
+    height: 200px;
+    float: left;
+    margin-right: 30px;
+    border: 4px solid brown;
+    
+}
+
+.box1{
+    float: left;
+    width: 45%;
+    margin-bottom: 50px;
+}
+
+.box2{
+    float: right;
+    width: 45%;
+}
+
+.cats{
+    color: purple;
+}
+
+@media (max-width: 680px) {
+    .box1{
+        display: block;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .box2{
+        display: block;
+        width: 100%;
+        text-align: justify;
+    }
+    .danbi{
+        margin-bottom: 10px;
+    }
+    .moose{
+        margin-bottom: 10px;
+    }
+}
+
